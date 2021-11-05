@@ -9,7 +9,7 @@ const ToDoList = () => (
             <button className="btn btn-sm ml-auto btn-outline-success">&#x2713;</button>
         </li>
         <li className="list-group-item d-flex align-items-center">
-            Répondre à l'appel d'offres
+            Apply for a new position
             <button className="btn btn-sm ml-auto btn-outline-success">&#x2713;</button>
         </li>
         <li className="list-group-item d-flex align-items-center">
@@ -17,7 +17,7 @@ const ToDoList = () => (
             <button className="btn btn-sm ml-auto btn-outline-success">&#x2713;</button>
         </li>
         <li className="list-group-item d-flex align-items-center">
-            Ranger le salon
+            Automate task for Dreso
             <button className="btn btn-sm ml-auto btn-outline-success">&#x2713;</button>
         </li>
     </ul>
