@@ -1,2 +1,7 @@
 # myTask-list
-A simple TODO management - My Task List
+TODO management - My Task List
+
+>
+>   A simple app to help you manage some
+>   useful tasks.
+>
