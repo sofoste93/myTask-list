@@ -2,10 +2,13 @@ import React from 'react'
 
 //new component
 const ToDoList = () => (
-    //my list
+    //my list - <h1 className="m-3">My Task manager: ToDo List</h1> not allowed here
+    // encapsulate them into a <div></div> for example - But instead of using <div>, use react-fragments
+    <React.Fragment>
+        <h1 className="m-3">My Task manager: ToDo List</h1>
     <ul className="list-group m-3">
         <li className="list-group-item d-flex align-items-center">
-            Ranger la vaisselle
+            Check motor oil and tires pressure
             <button className="btn btn-sm ml-auto btn-outline-success">&#x2713;</button>
         </li>
         <li className="list-group-item d-flex align-items-center">
@@ -13,14 +16,15 @@ const ToDoList = () => (
             <button className="btn btn-sm ml-auto btn-outline-success">&#x2713;</button>
         </li>
         <li className="list-group-item d-flex align-items-center">
-            Signer contrat
-            <button className="btn btn-sm ml-auto btn-outline-success">&#x2713;</button>
+            Review all offers
+            <button className="btn btn-sm btn-outline-success align-items-md-end">&#x2713;</button>
         </li>
         <li className="list-group-item d-flex align-items-center">
             Automate task for Dreso
             <button className="btn btn-sm ml-auto btn-outline-success">&#x2713;</button>
         </li>
     </ul>
+    </React.Fragment>
 )
 
 export default ToDoList
