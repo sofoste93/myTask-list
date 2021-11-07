@@ -16,6 +16,7 @@ class App extends React.Component{
                 <BrowserRouter>
                     <Routes>
                         <Route path="/add-task" element={<AddTask />} />
+                        <Route path="/:filter?" element={<ToDoList />} />
                         <Route path="/" element={<ToDoList />} />
                     </Routes>
                     <NavBar/>
