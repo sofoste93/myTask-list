@@ -17,7 +17,7 @@ const ToDoList = () => (
             </li>
             <li className="list-group-item d-flex align-items-center">
                 Review all offers
-                <button className="btn btn-sm btn-outline-success align-items-md-end">&#x2713;</button>
+                <button className="btn btn-sm btn-outline-success">&#x2713;</button>
             </li>
             <li className="list-group-item d-flex align-items-center">
                 Automate task for Dreso
