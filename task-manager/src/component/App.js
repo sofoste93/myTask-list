@@ -4,6 +4,7 @@ import ToDoList from "./ToDoList";
 import NavBar from "./NavBar";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import AddTask from "./AddTask";
+import initialData from "../initData";
 
 
 //component App
@@ -16,7 +17,7 @@ class App extends React.Component{
                 <BrowserRouter>
                     <Routes>
                         <Route path="/add-task" element={<AddTask />} />
-                        <Route path="/:filter?" element={<ToDoList />} />
+                        <Route path="/:filter?" render={(props) => <ToDoList {...props} tasks={initialData} />} />
                         <Route path="/" element={<ToDoList />} />
                     </Routes>
                     <NavBar/>
